@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller / Сборка (директории build/ и dist/)
+build/
+dist/
+*.manifest
+*.spec.bak
+
+# PyQt / Qt (сгенерированные ресурсы и скомпилированные интерфейсы)
+# Раскомментируйте, если ui_*.py и *_rc.py генерируются автоматически при сборке:
+# ui_*.py
+# *_rc.py
+*.qmlc
+*.jsc
+*.qm
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Конфиденциальные данные и локальные настройки
+.env
+.env.local
+
+# Настройки IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
